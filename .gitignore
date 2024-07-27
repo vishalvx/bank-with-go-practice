@@ -1,0 +1,35 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the Go coverage tool
+*.cover
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Dependency directories (vendor/)
+vendor/
+
+# Go module files
+go.sum
+
+# SQLC generated files (if you don't want to track them)
+sqlc/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Docker files
+docker-compose.override.yml
+docker-compose.override.yaml
